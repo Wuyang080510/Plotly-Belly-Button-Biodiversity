@@ -1,2 +1,2 @@
 # Plotly-Belly-Button-Biodiversity
-Use Plotly.js, a JavaScript data visualization library, to create an interactive data visualization for the web.
+Explore data on the biodiversity of belly Buttons. Use Plotly.js, a JavaScript data visualization library, to create interactive data visualizations for the web.
