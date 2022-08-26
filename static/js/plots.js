@@ -83,14 +83,13 @@ function buildCharts(sample) {
     var barData = [{
       x: sampleValues.slice(0,10).reverse(),
       y: yticks,
-      title: {text:"<b>Top 10 Bacteria Cultures Found</b>"},
       text: otu_labels.slice(0,10).reverse(),
       type:"bar",
       orientation: "h"
     }];
     // b9. Create the layout for the bar chart. 
     var barLayout = {
-     
+    title: {text:"<b>Top 10 Bacteria Cultures Found</b>"},
      margin: {
       t: 100,
       b: 30,
